@@ -1,0 +1,78 @@
+/* Tablet 1199px и меньше */
+@media(max-width: 1199px){
+    .container {
+        width: 900px;
+    }
+
+    .subtitle {
+        font-family: 'Noto Sans';
+        color: #999999;
+    }
+}
+
+/* Mobile 899px и меньше */
+@media(max-width: 899px){
+    .section {
+        padding: 60px 0;
+    }
+    
+    .container {
+        width: 600px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .section-cards {
+        row-gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .button {
+        padding: 12px 25px 14px;
+    
+        font-size: 18px;
+    }
+}
+
+/* Mobile XS 599px и меньше */
+@media(max-width: 599px){
+    .section {
+        padding: 60px 0 40px;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    .section-cards {
+       justify-content: center;
+    }
+
+    .card-title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .card-description {
+        margin-bottom: 10px;
+    }
+
+    .card .card-button {
+        font-size: 18px;
+    }
+
+    .section-cards {
+        row-gap: 20px;
+    }
+}
+
